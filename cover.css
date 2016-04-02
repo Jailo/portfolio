@@ -65,6 +65,9 @@ body {
   padding: 30px;
 }
 
+span{
+  font-family:'Lobster', cursive;
+}
 
 /*
  * Header
@@ -132,6 +135,7 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+
 }
 
 
@@ -189,6 +193,7 @@ hr{
 
 .contact{
   padding-bottom:50px;
+  background-color:white;
 }
 
 h1{
@@ -200,24 +205,13 @@ h1{
 }
 
 .img-rounded{
-  height:150px;
+  height:200px;
   max-width:200px;
   
 }
 
-.social-buttons{
-  height:100px;
-  width:100px;
-  display:inline;
-}
-.photo-me{
-  display:block;
-  margin:auto;
+.navbar-bottom{
+  border-radius:0;
 }
 
-.social-buttons{
-  height:40px;
-  width:40px;
-  display:inline-block;
-  margin:7px;
-}
+
